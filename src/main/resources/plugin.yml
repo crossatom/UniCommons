@@ -1,0 +1,38 @@
+name: UniCommons
+version: ${project.version}
+main: ru.unicorn.storm.unicommons.UniCommons
+prefix: UniCommons
+softdepend: [Vault, LuckPerms]
+authors: [TyLoDesu, UnicornStormTeam]
+description: Основные права для игроков. Специально для Unicorn Storm
+
+commands:
+  spawn:
+    description: Переместиться на спавн
+    usage: /spawn
+    permission: uni.spawn
+    permission-message: §eУ Вас недостаточно прав
+    aliases:
+      - ss
+      - ыы
+      - ызфцт
+  home:
+    description: Управление домашними точками
+    usage: /home <tp/set/del> <название>
+    permission: uni.home
+    permission-message: §eУ Вас недостаточно прав
+    aliases:
+      - h
+      - рщьу
+  save:
+    description: Сохранить конфигурации плагина
+    usage: /save
+    permission: uni.save
+    permission-message: §eУ Вас недостаточно прав
+    aliases:
+      - backup
+  kit:
+    description: Управление наборами
+    usage: /kit
+    permission: uni.kit
+    permission-message: §eУ Вас недостаточно прав

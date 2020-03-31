@@ -1,0 +1,10 @@
+spawn:
+  world: world
+  x: 0
+  y: 70
+  z: 0
+
+# {NICKNAME} - player's name
+connection:
+  join: "&e{NICKNAME} &7зашёл"
+  quit: "&e{NICKNAME} &7вышел"
