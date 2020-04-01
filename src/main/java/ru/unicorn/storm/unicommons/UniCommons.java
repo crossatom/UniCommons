@@ -10,6 +10,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import ru.unicorn.storm.unicommons.commands.CommandHome;
+import ru.unicorn.storm.unicommons.commands.CommandKit;
 import ru.unicorn.storm.unicommons.commands.CommandSave;
 import ru.unicorn.storm.unicommons.commands.CommandSpawn;
 

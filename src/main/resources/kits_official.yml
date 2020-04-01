@@ -1,0 +1,31 @@
+kits:
+  0:
+    name: start
+    price: 0
+    once: true
+    items:
+      - 267 1
+      - 257 1
+      - 256 1
+      - 258 1
+      - 54 2
+      - 58 1
+      - 61 1
+  1:
+    name: tools
+    price: 140
+    once: false
+    items:
+      - 346 1
+      - 259 1
+      - 257 1
+      - 256 1
+  2:
+    name: build
+    price: 229
+    once: false
+    items:
+      - 97:2 64
+      - 5:2 64
+      - 5:2 64
+      - 102 64

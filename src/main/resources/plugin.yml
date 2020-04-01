@@ -2,7 +2,7 @@ name: UniCommons
 version: ${project.version}
 main: ru.unicorn.storm.unicommons.UniCommons
 prefix: UniCommons
-softdepend: [Vault, LuckPerms]
+softdepend: [Vault, LuckPerms, SmartInvs]
 authors: [TyLoDesu, UnicornStormTeam]
 description: Основные права для игроков. Специально для Unicorn Storm
 
@@ -36,3 +36,5 @@ commands:
     usage: /kit
     permission: uni.kit
     permission-message: §eУ Вас недостаточно прав
+    aliases:
+      - kits
